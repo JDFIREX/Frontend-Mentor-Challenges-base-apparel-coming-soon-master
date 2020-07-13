@@ -8,6 +8,9 @@
   
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -16,18 +19,55 @@
 </head>
 <body>
 
-  We're coming soon
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
+    <main>
 
-  Email Address
-  
-  <footer>
+      <header>
+
+        <div class="logo">
+          <img class="logo_img" src="images/logo.svg" alt="logo-img">
+        </div>
+
+      </header>
+
+      <div class="main_img_box">
+        <img class="main_img" src="images/hero-desktop.jpg" alt="women-main-img">
+      </div>
+
+      <div class="container">
+
+        <div class="info">
+
+          <div class="info_header">
+            <h1>
+              <span>WE'RE</span>
+              COMING SOON
+            </h1>
+            <p>Hello fellow shoppers! We're currently building our new fashion store. 
+              Add your email below to stay up-to-date with announcements and our launch deals.</p>
+          </div>
+
+          <div class="email_box">
+            <input type="email" name="email" id="email" placeholder="Email Address">
+            <img class="error" src="images/icon-error.svg" alt="error-img">
+            <button type="submit">
+              <img src="images/icon-arrow.svg" alt="submit-arrow">
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </main>
+
+
+  <footer style="width: auto; position: fixed ; bottom: 0px; left : 10px; color: black;">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Jonatan Dajtrowski</a>.
     </p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
