@@ -17,7 +17,7 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body class="body">
 
 
     <main>
@@ -31,40 +31,45 @@
       </header>
 
       <div class="main_img_box">
-        <img class="main_img" src="images/hero-desktop.jpg" alt="women-main-img">
+        <img class="main_img" src="" alt="women-main-img">
       </div>
+      <section class="s_main">
+        <div class="container">
 
-      <div class="container">
-
-        <div class="info">
-
-          <div class="info_header">
-            <h1>
-              <span>WE'RE</span>
-              COMING SOON
-            </h1>
-            <p>Hello fellow shoppers! We're currently building our new fashion store. 
-              Add your email below to stay up-to-date with announcements and our launch deals.</p>
+          <div class="info">
+  
+            <div class="info_header">
+              <h1>
+                <span>WE'RE</span><br>
+                COMING SOON
+              </h1>
+              <p>Hello fellow shoppers! We're currently building our new fashion store. 
+                Add your email below to stay up-to-date with announcements and our launch deals.</p>
+            </div>
+  
+            <div class="email_box">
+              <input class="email_input" type="email" name="email" id="email" placeholder="Email Address">
+              <img class="error" src="images/icon-error.svg" alt="error-img">
+              <button class="submit" type="submit">
+                <img src="images/icon-arrow.svg" alt="submit-arrow">
+              </button>
+              <div class="error_mess">
+                <p>Please provide a valid email</p>
+              </div>
+            </div>
+  
           </div>
-
-          <div class="email_box">
-            <input type="email" name="email" id="email" placeholder="Email Address">
-            <img class="error" src="images/icon-error.svg" alt="error-img">
-            <button type="submit">
-              <img src="images/icon-arrow.svg" alt="submit-arrow">
-            </button>
-          </div>
-
+  
         </div>
-
-      </div>
+      </section>
+      
     </main>
 
 
   <footer style="width: auto; position: fixed ; bottom: 0px; left : 10px; color: black;">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Jonatan Dajtrowski</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/JDFIREX" target="_blank">Jonatan Dajtrowski</a>.
     </p>
   </footer>
 
